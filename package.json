@@ -1,0 +1,41 @@
+{
+  "name": "projects-sanpedro",
+  "version": "1.0.0",
+  "description": "pruebas en servidor nodejs en cloud ionos",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clsanpedro/project-sanpedro.git"
+  },
+  "keywords": [
+    "nodejs",
+    "MVC",
+    "pug",
+    "Tailwind",
+    "MySQL",
+    "Sequelize"
+  ],
+  "author": "clsanpedro_dev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clsanpedro/project-sanpedro/issues"
+  },
+  "homepage": "https://github.com/clsanpedro/project-sanpedro#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.12",
+    "nodemon": "^2.0.20",
+    "postcss": "^8.4.17",
+    "postcss-cli": "^10.0.0",
+    "tailwindcss": "^3.1.8"
+  }
+}
